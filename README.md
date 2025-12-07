@@ -1,12 +1,30 @@
-# LearningVue
+# Pokémon Cards Component
 
-This template should help get you started developing with Vue 3 in Vite.
+Proyecto de componentes reutilizables de tarjetas Pokémon desarrollado con Vue 3, TypeScript y Tailwind CSS con diseño neumórfico elegante y minimalista.
 
-## Recommended IDE Setup
+## 🎮 Características
+
+- ✨ Diseño neumórfico moderno y elegante
+- 🎨 Paleta de colores claros y minimalista
+- 🃏 Componente `PokemonCard` reutilizable
+- 🚀 Props configurables (nombre, sprite, tipo)
+- 💅 Estilos con Tailwind CSS puro
+- 📱 Diseño responsive
+
+## 🛠️ Tecnologías
+
+- Vue 3 (Composition API)
+- TypeScript
+- Tailwind CSS v4
+- Vite
+- Pinia (State Management)
+- Vitest (Testing)
+
+## 📋 Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Recommended Browser Setup
+## 🌐 Recommended Browser Setup
 
 - Chromium-based browsers (Chrome, Edge, Brave, etc.):
   - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
@@ -15,15 +33,7 @@ This template should help get you started developing with Vue 3 in Vite.
   - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
   - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## 📦 Project Setup
 
 ```sh
 pnpm install
@@ -52,3 +62,46 @@ pnpm test:unit
 ```sh
 pnpm lint
 ```
+
+## 🎯 Uso del Componente
+
+```vue
+<template>
+  <PokemonCard
+    nombre="Pikachu"
+    sprite="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+    tipo="electrico"
+  />
+</template>
+
+<script setup lang="ts">
+import PokemonCard from './components/PokemonCard.vue'
+</script>
+```
+
+## 📚 Estructura del Proyecto
+
+```
+src/
+├── components/
+│   └── PokemonCard.vue    # Componente de tarjeta Pokémon
+├── stores/                # Pinia stores
+├── __tests__/            # Tests unitarios
+├── App.vue               # Componente principal
+├── main.ts               # Entry point
+└── style.css             # Estilos globales
+```
+
+## 🎨 Conceptos Aplicados
+
+- ✅ Componentes reutilizables
+- ✅ Props y tipado con TypeScript
+- ✅ Diseño neumórfico
+- ✅ Tailwind CSS utility classes
+- ✅ Organización del proyecto
+- ✅ State management con Pinia
+
+## 📄 License
+
+MIT
+
