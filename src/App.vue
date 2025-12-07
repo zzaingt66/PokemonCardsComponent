@@ -5,7 +5,7 @@
       <div
         class="bg-[#f0f0f3] rounded-3xl shadow-[8px_8px_16px_#d1d1d4,-8px_-8px_16px_#ffffff] transition-all duration-300 hover:shadow-[12px_12px_20px_#d1d1d4,-12px_-12px_20px_#ffffff] p-12 mb-16 text-center"
       >
-        <h1 class="text-5xl font-bold text-gray-800 mb-4 tracking-tight">🎮 Pokémon Cards Game</h1>
+        <h1 class="text-5xl font-bold text-gray-800 mb-4 tracking-tight">Pokémon Cards Game</h1>
         <p class="text-lg text-gray-600 font-medium">Mi primer componente Vue 3</p>
       </div>
 
