@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+/* Neumorphic Styles */
+body {
+  background: #f0f0f3;
+  min-height: 100vh;
+  margin: 0;
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Reset default margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
